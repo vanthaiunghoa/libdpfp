@@ -1,0 +1,9 @@
+See NEWS for a summary of changes from one version to the next.
+
+Change history is kept in the git repository:
+http://dsd.object4.net/git/libdpfp.git
+(after cloning, run "git whatchanged" to see changelog)
+
+Change history also viewable on the web at
+http://dsd.object4.net/git/?p=libdpfp.git;a=summary
+

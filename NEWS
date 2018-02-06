@@ -1,0 +1,34 @@
+Version 0.2.2 (2007-10-24)
+ * Add enhance_from_file example to help people optimize the enhancement code
+   without needing hardware
+ * Add minutiae detection and comparison code from eFinger
+ * Add match_finger example to test out the minutiae comparison algorithms
+ * Support Microsoft fingerprint reader (standalone) v2
+ * Power up sequence improvements
+
+Version 0.2.1 (2006-08-29)
+ * dpfp_set_mode endianness fix (Andrei Tchijov)
+ * darwin compatibility for endianness handling (Andrei Tchijov)
+ * handle infinite interrupt timeout "manually" (one step closer to Darwin
+   support)
+ * Add image enhancement code from FVS: mean softening, direction, mask, gabor
+ * Add image thinning code from eFinger
+ * capture_finger_enhanced now writes finger.pgm, finger_enhanced.pgm and
+   finger_thinned.pgm showing a few stages of the enhancement process
+
+Version 0.2.0 (2006-08-16)
+ * Drop dependence on firmware and kernel driver -- implemented purely in
+   userspace with libusb.
+ * Added some basic image manipulation code.
+ * Added capture_finger_enhanced using simple base image subtraction
+ * Add enhanced mode (E) to capture_continuous
+ * New example: capture_continuous_gtk (GTK+ version of capture_continuous)
+
+Version 0.1.1 (2006-03-19)
+ * Big-endian support
+ * Support command 1C
+ * More configure-time checks
+
+Version 0.1.0 (2006-03-16)
+ * Initial release
+
